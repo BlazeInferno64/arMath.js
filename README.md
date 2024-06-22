@@ -90,7 +90,7 @@ console.log(output);
 Output will be as below 
 
 ```
-0
+2
 ```
 
 # Modulus of an array of numbers
@@ -103,7 +103,13 @@ const arMath = require("armath");
 
 const array = [1,2,3,4,5]; // An array of numbers
 const number = 2 // Any number of your choice
-console.log(arMath.modulusArray(array, number)
+console.log(arMath.modulusArray(array, number));
+```
+
+Output
+
+```
+[ 1, 0, 1, 0, 1 ]
 ```
 
 # Prime checking
@@ -138,7 +144,7 @@ Example
 ```
 const arMath = require("armath");
 
-console.log(arMath.isPositive(3);
+console.log(arMath.isPositive(3));
 ```
 
 Output
@@ -155,7 +161,7 @@ const arMath = require("armath");
 const num1 = 5; // Any number of your choice
 const num2 = 49;
 console.log(arMath.square(num1)); // Output will be 25
-console.log(arMath.sqrt(num2))' // Output will be 7
+console.log(arMath.sqrt(num2)); // Output will be 7
 ```
 
 We can use similar approach for cube/cuberoot ,i.e, `arMath.cube(a)` & `arMath.cbrt(a)`, where a is any number
@@ -172,7 +178,7 @@ const arMath = require("armath");
 console.log(arMath.floorDivide(2,4)); // Replace with any number of your choice
 ```
 
-It will give you the result of floor division as the output
+It will give you the result of floor division as the output ,i.e, 0
 
 # Issues/Bugs/Feature requests
 
