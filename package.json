@@ -1,0 +1,20 @@
+{
+  "name": "arMath",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "arMath",
+    "Arithmetic-Math",
+    "arMath.js",
+    "JavaScript-Math",
+    "js",
+    "web"
+  ],
+  "author": "BlazeInferno64",
+  "license": "ISC",
+  "repository": "https://github.com/blazeinferno64/arMath.js",
+  "description": "arMath.js is a simple math library for performing basic Mathematical operations within JavaScript"
+}
