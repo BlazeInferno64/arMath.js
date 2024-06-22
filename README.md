@@ -13,7 +13,7 @@ npm i armath
 
 Then require the package in your project file as belows
 
-```
+```javascript
 const arMath = require("armath");
 ```
 
