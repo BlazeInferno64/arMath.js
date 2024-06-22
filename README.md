@@ -55,7 +55,7 @@ And in the console we can see the results as below
 
 Like this you can use arMath.sub(), arMath.multiply(), arMath.divide() as your desired requirement
 
-# Addition of an arrar of numbers
+# Addition of an array of numbers
 arMath.addArray() is the function we will require for adding the arrays
 
 let me show you a simple example 
