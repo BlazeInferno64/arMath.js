@@ -18,7 +18,7 @@ const arMath = require("armath");
 ```
 
 # Info
-arMath.js provides you with follwing capbilities -
+arMath.js provides you with following capbilities -
 1. Addition of two numbers
 2. Subtraction of two numbers
 3. Multiplication of two numbers
