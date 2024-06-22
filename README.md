@@ -1,20 +1,17 @@
 # arMath.js
 arMath.js stands for Arithmetic Math.js, which is a simple library made in JavaScript to perform basic mathematical operations
 
-Check the npm package here
-https://www.npmjs.com/package/armath
-
 # Setup
 First install the package:
 
 ```
-npm i armath
+npm i armath.js
 ```
 
 Then require the package in your project file as belows
 
 ```javascript
-const arMath = require("armath");
+const arMath = require("armath.js");
 ```
 
 # Info
@@ -41,7 +38,7 @@ Using arMath.add() function we will be adding 1 and 2,
 It will throw an error if the input provided isn't a number!
 
 ```javascript
-const arMath = require("armath");
+const arMath = require("armath.js");
 
 const output = arMath.add(1,2);
 console.log(output);
@@ -49,7 +46,7 @@ console.log(output);
 
 And in the console we can see the results as below
 
-```
+```javascript
 3.0
 ```
 
@@ -61,7 +58,7 @@ arMath.addArray() is the function we will require for adding the arrays
 let me show you a simple example 
 
 ```javascript
-const arMath = require("armath");
+const arMath = require("armath.js");
 
 const numbers = [0,1,2,3,4,5,6,7,8,9,10]
 console.log(arMath.addArray(numbers))
@@ -69,7 +66,7 @@ console.log(arMath.addArray(numbers))
 
 Output will be as below 
 
-```
+```javascript
 55.0
 ```
 
@@ -84,7 +81,7 @@ You have to pass in two parameters here, i.e, then dividend and the divisor
 Let me show you the example:
 
 ```javascript
-const arMath = require("armath");
+const arMath = require("armath.js");
 
 let output = arMath.modulus(2,4);
 console.log(output);
@@ -92,7 +89,7 @@ console.log(output);
 
 Output will be as below 
 
-```
+```javascript
 2
 ```
 
@@ -102,7 +99,7 @@ To find the modulus of an array of numbers use `arMath.modulusArray(array, num)`
 Let me show you a basic example
 
 ```javascript
-const arMath = require("armath");
+const arMath = require("armath.js");
 
 const array = [1,2,3,4,5]; // An array of numbers
 const number = 2 // Any number of your choice
@@ -111,7 +108,7 @@ console.log(arMath.modulusArray(array, number));
 
 Output
 
-```
+```javascript
 [ 1, 0, 1, 0, 1 ]
 ```
 
@@ -121,20 +118,20 @@ To check if its a prime or not you need to use the `isPrime(num)` function and p
 Example
 
 ```javascript
-const arMath = require("armath");
+const arMath = require("armath.js");
 
 console.log(arMath.isPrime(2));
 ```
 
 Output will be 
 
-```
+```javascript
 true
 ```
 
 If we pass in any composite number, then output will be 
 
-```
+```javascript
 false
 ```
 
@@ -145,21 +142,21 @@ It will show true if its positive, zero in case of 0 and false in case of negati
 Example
 
 ```javascript
-const arMath = require("armath");
+const arMath = require("armath.js");
 
 console.log(arMath.isPositive(3));
 ```
 
 Output
 
-```
+```javascript
 true
 ```
 
 # Square & Square Root of a number
 
 ```javascript
-const arMath = require("armath");
+const arMath = require("armath.js");
 
 const num1 = 5; // Any number of your choice
 const num2 = 49;
@@ -176,7 +173,7 @@ To floor divide you need to use `arMath.floorDivide`
 Example
 
 ```javascript
-const arMath = require("armath");
+const arMath = require("armath.js");
 
 console.log(arMath.floorDivide(2,4)); // Replace with any number of your choice
 ```
