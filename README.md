@@ -1,7 +1,8 @@
 # arMath.js
 arMath.js stands for Arithmetic Math.js, which is a simple library made in JavaScript to perform basic mathematical operations
 
-Edit:- Package will be released within 24hrs so npm i command isn't available yet!
+Check the npm package here
+https://www.npmjs.com/package/armath.js
 
 # Setup
 First install the package:
