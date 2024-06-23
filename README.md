@@ -1,9 +1,6 @@
 # arMath.js
 arMath.js stands for Arithmetic Math.js, which is a simple library made in JavaScript to perform basic mathematical operations
 
-Check the npm package here
-https://www.npmjs.com/package/armath.js
-
 # Setup
 First install the package:
 
@@ -80,7 +77,7 @@ You just have to pass an array to the functions like the above scenario
 
 To find the modulus of two numbers
 use `arMath.modulus(a, b)` , where a & b are any two numbers
-You have to pass in two parameters here, i.e, then dividend and the divisor
+You have to pass in two parameters here, i.e, the dividend and the divisor
 Let me show you the example:
 
 ```javascript
@@ -158,6 +155,8 @@ true
 
 # Square & Square Root of a number
 
+To find the square use `arMath.square(num)` & for square root use `arMath.sqrt(num)`
+
 ```javascript
 const arMath = require("armath.js");
 
@@ -171,7 +170,7 @@ We can use similar approach for cube/cuberoot ,i.e, `arMath.cube(a)` & `arMath.c
 
 # Floor Division
 
-To floor divide you need to use `arMath.floorDivide`
+To floor divide you need to use `arMath.floorDivide()`
 
 Example
 
@@ -188,4 +187,5 @@ It will give you the result of floor division as the output ,i.e, 0
 For any bugs/issues/feature requests feel free to open up an issue here at https://github.com/blazeinferno64/arMath.js
 
 `Thanks for reading :)`
+
 `Have a great day ahead!`
