@@ -187,7 +187,7 @@ It will give you the result of floor division as the output ,i.e, 0
 
 # Issues/Bugs/Feature requests
 
-For any bugs/issues/feature requests feel free to open up an issue here at https://github.com/blazeinferno64/arMath.js
+For any bugs/issues/feature requests feel free to open up an issue here
 
 `Thanks for reading :)`
 
